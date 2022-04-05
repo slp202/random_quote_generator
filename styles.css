@@ -8,7 +8,7 @@ body{
     min-height:100vh;
     transition: 0.5s;
     transition-timing-function: ease-in;
-    background-image: linear-gradient(to right bottom, rgb(255, 128, 128), #ffedbca8);
+    background-image: linear-gradient(to right bottom, rgb(0, 0, 0), #272521a8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,13 +24,13 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     width: 600px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(245, 190, 190, 0.186);
     margin: 10px;
  
 }
 .fa-quote-left, .fa-quote-right {
     font-size: 35px;
-    color: rgb(179, 0, 0);
+    color: rgb(255, 251, 251);
 }
 .quote
 {
@@ -55,9 +55,9 @@ hr {
 }
 .buttons {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex;
+    /* justify-content: space-between; */
+    align-items: center; */
     margin-top: 9px;
 }
 .next
@@ -68,10 +68,12 @@ hr {
     padding: 10px;
     margin-top: 5px;
     font-weight: bold;
-    color: white;
-    background-image: linear-gradient(to right bottom, rgb(230, 0, 0), #ffedbca8);
+    color: rgb(252, 252, 252);
+    background-image: linear-gradient(to right bottom, rgb(18, 17, 17), #ffedbca8);
+    display: flex;
+    align-items: center;
 }
 .container:hover
 {
-    box-shadow: 0 10px 10px rgb(230, 0, 0);
+    box-shadow: 0 10px 10px rgb(62, 20, 20);
 }
