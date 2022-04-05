@@ -31,9 +31,6 @@ const getNewQuote = async () =>
     text.innerHTML=quote;
     author.innerHTML="~ "+auth;
 
-    //tweet the quote
-    tweetButton.href="https://twitter.com/intent/tweet?text="+quote+" ~ "+auth;
-
 }
 
 getNewQuote();
